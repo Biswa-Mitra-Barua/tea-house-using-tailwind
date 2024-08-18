@@ -26,8 +26,7 @@
     <!-- main content -->
      <main class="max-w-screen-xl px-16 lg:px-28 mx-auto">
         <!-- header section -->
-        <header>
-            <div class="flex items-center">
+        <header class="lg:flex flex-col items-center pt-10 mb-20 md:flex-row">
                 <!-- left -->
                 <div class="my-4">
                     <h1 class="text-7xl font-extrabold">It's good <br>tea time at The <br> Tea House</h1>
@@ -35,9 +34,9 @@
                     <button class="text-white font-bold px-5 py-3 rounded-lg bg-gradient-to-r from-orange-500 to-red-600">Explore More  <i class="-rotate-45 fa-solid fa-arrow-right"></i></button>
                 </div>
                 <!-- right -->
-                <div class="w-full relative">
+                <div class="md:w-full w-3/4 relative">
                     <img src="images/banner.png" alt="">
-                    <div class="absolute px-5 py-3 bg-white rounded-lg flex items-center border-2 top-96 left-28">
+                    <div class="static md:absolute px-5 py-3 bg-white rounded-lg flex items-center border-2 top-96 left-28">
                         <div class="text-amber-400 text-3xl">
                             <i class="fa-solid fa-star"></i>
                         </div>
@@ -45,11 +44,39 @@
                             <h3 class="text-3xl font-bold">5.00</h3>
                             <p class="text-base font-bold text-gray-500">Trust Pilot Ratings</p>
                         </div>
-                        
                     </div>
                 </div>
-            </div>
         </header>
+        <!-- our featured products -->
+         <section class="py-8 lg:24">
+          <div class="text-center mb-4">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-5">Our Featured Products</h1>
+            <p class="text-gray-600 max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+          </div>
+          <!-- cards -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+            <div class="bg-gray-100 shadow-md rounded-xl overflow-hidden">
+              <img class="mx-auto py-6" src="images/tea-1.png" alt="">
+              <h3 class="text-2xl font-bold py-1">Milk Tea</h3>
+              <p class="text-gray-600 font-semibold py-2">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="bg-gray-100 shadow-md rounded-xl overflow-hidden">
+              <img class="mx-auto py-6" src="images/tea-2.png" alt="">
+              <h3 class="text-2xl font-bold py-1">Lemon Tea</h3>
+              <p class="text-gray-600 font-semibold py-2">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="bg-gray-100 shadow-md rounded-xl overflow-hidden">
+              <img class="mx-auto py-6" src="images/tea-3.png" alt="">
+              <h3 class="text-2xl font-bold py-1">Black Tea</h3>
+              <p class="text-gray-600 font-semibold py-2">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="bg-gray-100 shadow-md rounded-xl overflow-hidden">
+              <img class="mx-auto py-6" src="images/tea-4.png" alt="">
+              <h3 class="text-2xl font-bold py-1">Green Tea</h3>
+              <p class="text-gray-600 font-semibold py-2">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+         </section>
      </main>
 </body>
 </html>
